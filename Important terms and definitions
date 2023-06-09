@@ -1,0 +1,10 @@
+What is a Python Script, Module, Package and a Library?
+    -> Script is a python code which will give you an output when you run that code. You can consider it as a code which contains main function, 
+       which directly gives ouput when you run it.
+    -> Module is a python code BUT which contains functions or objects whcih will be imported in python scripts. These are python files which is basically imported.
+    -> Package is a directory/folder which contains multiple Scripts and Modules along with a __init__.py file. This file tells the interpretor that the directory 
+       is a Package.
+    -> Library is a collection of multiple Packages. eg. matplotlib is a library with multiple packages. These packages contain multiple modules and sub-modules which can be
+       imported in the code.
+       
+   
