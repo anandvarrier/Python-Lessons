@@ -7,4 +7,16 @@ What is a Python Script, Module, Package and a Library?
     -> Library is a collection of multiple Packages. eg. matplotlib is a library with multiple packages. These packages contain multiple modules and sub-modules which can be
        imported in the code.
        
-   
+       
+       
+Steps to Push a code from your computer to Github repository
+
+Step 1: Open a terminal from the directory where your code is located.
+Step 2: Type -> git init -> This will iniliaize the pushing the code 
+Step 3: Type -> git add <name of file> -> type the name of file to add the file you desire
+Step 4: Type -> git commit -m "comment if any" -> This will commit the file that you want to add 
+Step 5: Type -> git remote add origin <copy the path of the git repository here> -> you will find the link when you go to the repository page and click on code button.
+Step 5.1: Type -> git remote set-url <copy the path of the git repository here> -> this line is used when you have already pushed a code earlier and now you want to add another file. You need not set up a path again.
+Step 6: Type -> git push -u origin <folder name you have given> -> it coud be master or main or any name if the folder you want to add.
+
+You ahave successfully pushed a code in into a repo in Git.
