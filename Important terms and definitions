@@ -19,4 +19,7 @@ Step 5: Type -> git remote add origin <copy the path of the git repository here>
 Step 5.1: Type -> git remote set-url <copy the path of the git repository here> -> this line is used when you have already pushed a code earlier and now you want to add another file. You need not set up a path again.
 Step 6: Type -> git push -u origin <folder name you have given> -> it coud be master or main or any name if the folder you want to add.
 
-You ahave successfully pushed a code in into a repo in Git.
+You haave successfully pushed a code in into a repo in Git.
+
+Extra and important steps:
+If you want to change the repo branch from master to main. The command for the same is: git branch --move master main
